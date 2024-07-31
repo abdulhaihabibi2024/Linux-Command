@@ -1,0 +1,193 @@
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~
+$ pwd
+/c/Users/Eng Abdul Hai Habibi
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ battery-report.html
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ oinstall_tmp/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~
+$ cd Desktop
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop
+$ ls
+ Cal/  'New Microsoft Word Document.docx'   World/        download.png
+ For/   Pad.pdf                             desktop.ini   pak/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop
+$ cd World
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World
+$ ls
+Afghanistan/  Iran/  Pakistan/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World
+$ cd Afghanistan
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ ls
+Herat/  Kabul/  Panjshir/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ du
+0       ./Herat
+0       ./Kabul
+0       ./Panjshir
+0       .
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ cd Kabul
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Kabul
+$ ls
+file.txt
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Kabul
+$ cd ..
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ cd Panjshir
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ ls
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ cd..
+bash: cd..: command not found
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ cd ..
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ mkdir Parwan
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ ls
+Herat/  Kabul/  Panjshir/  Parwan/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ cd Kabul
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Kabul
+$ ls
+file.txt
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Kabul
+$ cp file.txt ../Parwan
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Kabul
+$ cd ..
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ cd Parwan
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Parwan
+$ ls
+file.txt
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Parwan
+$ mv file.txt ../Panjshir
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Parwan
+$ ls
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Parwan
+$ cd ..
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ cd Panjshir
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ ls
+file.txt
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ rm file.txt
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ l
+bash: l: command not found
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ ls
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Panjshir
+$ cd ..
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ ls
+Herat/  Kabul/  Panjshir/  Parwan/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ cd Herat
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Herat
+$ ls
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Herat
+$ rmdir Herate
+rmdir: failed to remove 'Herate': No such file or directory
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Herat
+$ cd ..
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ rmdir Herat
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ ls
+Kabul/  Panjshir/  Parwan/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ cd Kabul
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Kabul
+$ ls
+file.txt
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan/Kabul
+$ cd ..
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ rm -rf Kabul
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$ ls
+Panjshir/  Parwan/
+
+Eng Abdul Hai Habibi@DESKTOP-21CECMD MINGW64 ~/Desktop/World/Afghanistan
+$
+
